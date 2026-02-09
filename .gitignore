@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+/client/node_modules/
+/server/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment variables (Safety)
+.env
+.DS_Store
