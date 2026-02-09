@@ -9,7 +9,7 @@ app.use(cors()); // This allows the React app to talk to this server
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/sydney_events')
+mongoose.connect('mongodb+srv://mazharkhan983955:piu#Bx*49ZjqVCr@cluster0.ltxig.mongodb.net/?appName=Cluster0')
   .then(() => console.log("Connected to MongoDB"))
   .catch(err => console.log("MongoDB Connection Error:", err));
 
