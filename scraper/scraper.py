@@ -5,7 +5,7 @@ from datetime import datetime
 
 # 1. Connect to your Database
 # Make sure you have MongoDB installed locally!
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://mazharkhan983955:Apple1234@cluster0.ltxig.mongodb.net/?appName=Cluster0")
 db = client.sydney_events
 collection = db.events
 
